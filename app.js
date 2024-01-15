@@ -23,4 +23,7 @@ client.on('message', message => {
     if(message.body === 'ping') {
         message.reply('pong');
     }
+    if(message.body === 'Hie') {
+        message.reply('Hie good afternoon');
+    }
 });
